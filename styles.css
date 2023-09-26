@@ -1,0 +1,341 @@
+*{
+    /* background-color: black; */
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* header{
+    height: 120px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+} */
+#head{
+    /* height: 80px; */
+    /* background-color: yellow; */
+    font-size: 2.5rem;
+    color: darkorchid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.opt{
+    /* margin-top:14px ; */
+    height: 35px;
+    width: 170px;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+}
+.opt:hover{
+    /* padding-top: 50px; */
+    background-color: lightgrey;
+    color: blue;
+    transform: scale(1.2);
+    cursor: pointer;
+    
+}
+
+option{
+    text-align: center;
+}
+p{
+    line-height: 25px;
+    font-size: 1.15rem;
+}
+
+.btn{
+    font-size: 1.3rem;
+    margin: 90%;
+}
+
+.btn:hover{
+    background-color: lightgreen;
+    transform: 2px;
+}
+.mySlides{
+
+    /* margin-top: 10px ; */
+    width: 100%;
+    height: 500px;
+}
+li{
+    background-color: black;
+    color: white;
+    margin-left: 31%;
+    margin-right: 31%;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(79, 37, 122, 0.2);
+    cursor: pointer;
+    
+}
+
+.nav{
+    /* display: flex; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 1.8rem;
+}
+
+.middle{
+    margin-top: 5px;
+
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    padding-left: 50px;
+    margin: 8px;
+}
+.photo{
+    /* border: 2px solid black; */
+    /* background-color: grey; */
+    border-radius: 8px;
+    height: 280px;
+    width: 400px;
+    margin: 6px;
+    /* padding: 2px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.photo:hover{
+    transform: scale(1.046);
+    transition: all 0.45s ease;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+}
+
+.border{
+    border: 3px solid red;
+    border-color: green;
+    
+}
+
+.text{
+    padding-left: 12%;
+    text-align: center;
+    width: 350px;
+    color: #385042;
+    font-size: 1.2rem;
+    line-height: 25px;
+    font-weight: 600;
+}
+.section{
+    margin-top: 8px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.tour{
+    height: 380px;
+    border-radius: 200px ;
+    /* padding: 1px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+h4{
+    text-align: center;
+    margin-top: 25px;
+}
+h2{
+    margin-top: 30px;
+}
+.place1{
+    display: flex;
+
+}
+.txt{
+    margin-top: 19px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+
+/* show more or less */
+#more{
+    display: none;
+}
+
+#myBtn{
+    border: none;
+    color: blue;
+    background-color: none;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+
+/* nabbar */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar{
+    /* position: fixed; */
+    top: 0; left: 0; right: 0;
+    background-color: #151313;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 8%;
+    
+}
+
+.logo{
+   font-size: 26px;
+   font-weight: bolder;
+   color: #fff;
+   text-transform: uppercase;
+   position: relative;
+   animation-name: example;
+   animation-duration: .6s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+.Logo{
+    height:37px;
+    width: 120px;
+    text-align: center;
+    padding: 6px;
+}
+
+@keyframes example{
+    0%{
+        font-size: 26px;
+    }
+    25%{
+        font-size:28px ;
+    }
+    50%{
+        font-size:30px ;
+    }
+    75%{
+        font-size: 32px;
+        }
+    100%{
+        font-size:34px ;
+    }
+}
+
+.logo span{
+    color:orange;
+}
+
+.navlink a {
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 25px;
+}
+
+.navbar a:hover{
+     color: orange;
+}
+
+.navbar .icons{
+    font-size:22px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.navbar i:hover{
+    color: orange;
+}
+
+.search-bar #search-button{
+    width:250px;
+    font-size: 14px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar label{
+    font-size: 18px;
+    margin-left: 3px;
+    color: #fff;
+}
+
+.search-bar label:hover{
+    color: orange;
+}
+
+
+/* links */
+
+.links{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d5d5d;
+    color: white;
+    font-size: 1.7rem;
+    border: 8px solid white;
+    border-radius: 60px ;
+    box-shadow: black;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.link1{
+    /* display: flex; */
+    justify-content: space-evenly;
+    margin-left: 50px ;
+    font-size: 1.2rem;
+
+}
+
+ .link2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex ;
+    padding-left:5px;
+    font-size: 1.15rem;
+    color: rgb(114, 136, 250);
+    border-radius: 10px;
+    text-shadow: green;
+
+}
+.link2:hover{
+    color: darkgoldenrod;
+    /* border: 3px solid red; */
+    background-color: none;
+    transform: scale(1.035);
+}
+
+
+
+button{
+    text-decoration: none;
+    border: none;
+    background-color: #151313 ;
+    color: none;
+}
+
+.pp{
+    color: yellow;
+}
+
