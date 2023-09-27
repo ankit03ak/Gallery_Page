@@ -219,6 +219,7 @@ i{
     width: 120px;
     text-align: center;
     padding: 6px;
+    cursor: pointer;
 }
 
 @keyframes example{
